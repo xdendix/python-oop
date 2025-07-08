@@ -1,11 +1,8 @@
-class Car:
-    pass
+class Mobil:
+    # Atribut
+    warna = "Merah"
 
 
-car1 = Car()
-car2 = Car()
-car3 = Car()
-car4 = Car()
-
-print(car1)
-print(car2)
+mobil_1 = Mobil()  # object
+mobil_1.warna = "Biru"  # mengubah atribut dari class mobil
+print(mobil_1.warna)
